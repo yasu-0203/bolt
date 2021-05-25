@@ -102,6 +102,7 @@
   line-height: 1.5;
   margin-top: 35px;
  }
+
   /* -work- */
 .article {
   background-color: #f2f2f2;
@@ -200,6 +201,7 @@
   margin-top: 20px;
   text-align: center;
 }
+
   /* -sns- */
 .nav {
   background-color:	#f2f2f2;
@@ -227,8 +229,8 @@
   background-color: #fff;
   transition: background-color .3s;
 }
-/*footer*/
 
+/*footer*/
 .footer {
   background-color: #74cfae;
 }
