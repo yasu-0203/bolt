@@ -208,24 +208,34 @@
 }
 
 .nav_icons {
-  display: table;
-  padding: 200px;
   margin: auto;
+  padding: 200px;
+}
+
+.nav_icons ul {
+  display: flex;
+  justify-content: center;
+}
+
+.nav_icons li {
+  cursor: pointer;
+  padding: 20px 0;
+  text-align: center;
+  transition: background-color .3s;
+  width: 185px;
+}
+
+.nav_icons a {
+  display: block;
 }
 
 .icon {
   color: #74cfae;
-  display: table-cell;
-  cursor: pointer;
   font-size: 60px;
-  height: 100px;
-  text-align: center;
-  vertical-align: middle;
-  width: 185px;
   transition: background-color .3s;
 }
 
-.icon:hover {
+.nav_icons li:hover {
   background-color: #fff;
   transition: background-color .3s;
 }
@@ -235,7 +245,7 @@
   background-color: #74cfae;
 }
 
-.footer_inner {
+.footer_text {
   color: #fff;
   padding: 20px 0 25px 70%;
 }
