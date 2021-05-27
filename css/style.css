@@ -6,6 +6,9 @@
   margin: auto;
 }
 
+body {
+  font-family: Lato;
+}
 /* header */
 .header {
   background-color: #fff;
@@ -16,8 +19,8 @@
 
 .header-inner {
   display: flex;
-  justify-content: center; 
-  padding: 15px;
+  justify-content: space-between; 
+  padding: 15px 0;
   text-align: center;
 }
 
@@ -29,7 +32,6 @@
   background-color: #74cfae;
   color: #fff;
   font-size: 12px;
-  margin-left: 50%;
   padding: 15px;
   text-decoration: none; 
   transition: color .3s;
@@ -53,7 +55,7 @@
 }
 
 .main_inner {
-  padding: 250px;
+  padding: 250px 0;
 }
 
 .main_theme_text {
@@ -83,6 +85,10 @@
   display: flex;
   justify-content: center;
   padding-top: 50px;
+}
+
+.top_section img {
+  vertical-align: middle;
 }
 
 .top_section_text {
@@ -259,7 +265,8 @@
 }
 
 .footer_inner {
-  padding: 20px 0 25px 70%;
+  padding: 20px 0 25px;
+  text-align: right;
 }
 
 .footer_text {
