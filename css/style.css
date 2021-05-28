@@ -9,10 +9,16 @@
 body {
   font-family: Lato;
 }
+
+.is-raleway {
+  font-family: 'Raleway';
+}
 /* header */
 .header {
   background-color: #fff;
+  left: 0;
   position: fixed;
+  top: 0;
   width: 100%; 
   z-index: 100;
 }
@@ -20,10 +26,9 @@ body {
 .header-inner {
   display: flex;
   justify-content: space-between; 
-  left: 0;
   padding: 15px 0;
   text-align: center;
-  top: 0;
+  
 }
 
 .fa-bolt {
@@ -66,7 +71,6 @@ body {
 
 .main_theme_text h1 {
   color: #74cfae;
-  font-family: Raleway;
   font-size: 90px;
   font-weight: 700;
 }
@@ -101,7 +105,6 @@ body {
  }
 
 .top_section_text h2 {
-  font-family: Raleway;
   font-size: 24px;
  }
 
@@ -121,7 +124,6 @@ body {
 }
 
 .article_top_text {
-  font-family: Raleway;
   font-size: 24px;
   text-align: center;
 } 
@@ -197,7 +199,6 @@ body {
 
 .bottom_section h2 {
   color: #fff;
-  font-family: Raleway;
   font-size: 30px;
   text-align: center;
 }
